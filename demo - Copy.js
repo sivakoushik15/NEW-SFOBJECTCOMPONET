@@ -29,18 +29,4 @@ function ValidateIPaddress(ip)
   if(true){
     console.log("sdggg");
   }
-	
-	console.log('sdggg');
-    console.log('sdggg');
-    console.log('sdggg');
-    console.log('sdggg');
-	
-	system.out.println("");
-	system.out.println("");
-	system.out.println("");
-	system.out.println("");
-	system.out.println("");
-	system.out.println("");
-	system.out.println("");
-	system.out.println("");
 }
