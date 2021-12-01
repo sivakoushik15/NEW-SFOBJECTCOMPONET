@@ -8,18 +8,43 @@ public class Class1 {
         new pull request checking
     }
     public static void dupe2(){
-        
+        if (true) {
+    console.log('sdggg');
+    console.log('sdggg');
+    console.log('sdggg');
+    console.log('sdggg');
+  }
     }
     public static void dupe3(){
-        
+        if (true) {
+    console.log('sdggg');
+    console.log('sdggg');
+    console.log('sdggg');
+    console.log('sdggg');
+  }
     }
     public static void dupe1(){
-        
+        if (true) {
+    console.log('sdggg');
+    console.log('sdggg');
+    console.log('sdggg');
+    console.log('sdggg');
+  }
     }
     public static void dupe2(){
-        
+        if (true) {
+    console.log('sdggg');
+    console.log('sdggg');
+    console.log('sdggg');
+    console.log('sdggg');
+  }
     }
     public static void dupe3(){
-        
+        if (true) {
+    console.log('sdggg');
+    console.log('sdggg');
+    console.log('sdggg');
+    console.log('sdggg');
+  }
     }
 }

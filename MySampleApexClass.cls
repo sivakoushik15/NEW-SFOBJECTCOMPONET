@@ -8,24 +8,48 @@ public class MySampleApexClass {
    public static Integer getCalculatedValue () {
    // Method definition and body
    // do some calculation
+   if (true) {
+    console.log('sdggg');
+    console.log('sdggg');
+    console.log('sdggg');
+    console.log('sdggg');
+  }
       myValue = myValue+10;
       return myValue;
    }
     public static Integer getCalculatedValue () {
    // Method definition and body
    // do some calculation
+   if () {
+    console.log('sdggg');
+    console.log('sdggg');
+    console.log('sdggg');
+    console.log('sdggg');
+  }
       myValue = myValue+10;
       return myValue;
    }
    public static Integer getCalculatedValue () {
    // Method definition and body
    // do some calculation
+   if () {
+    console.log('sdggg');
+    console.log('sdggg');
+    console.log('sdggg');
+    console.log('sdggg');
+  }
       myValue = myValue+10;
       return myValue;
    }
     public static Integer getCalculatedValue () {
    // Method definition and body
    // do some calculation
+   if () {
+    console.log('sdggg');
+    console.log('sdggg');
+    console.log('sdggg');
+    console.log('sdggg');
+  }
       myValue = myValue+10;
       return myValue;
    }
