@@ -13,20 +13,23 @@
   {
    alert("You have entered an invalid IP address!")
   }
-   // Method definition and body
-   // do some calculation
-   if (true) {
-    console.log('sdggg');
-    console.log('sdggg');
-    console.log('sdggg');
-    console.log('sdggg');
-  }
       myValue = myValue+10;
       return myValue;
-   
-   
-   // Method definition and body
-   // do some calculation
+	  
+	  
+	system.out.println("");
+	system.out.println("");
+	system.out.println("");
+	system.out.println("");
+	system.out.println("");
+	system.out.println("");
+	system.out.println("");
+	system.out.println("");
+	system.out.println("");
+	system.out.println("");
+	system.out.println("");
+	system.out.println("");
+ 
    if () {
     console.log('sdggg');
     console.log('sdggg');
@@ -35,10 +38,7 @@
   }
       myValue = myValue+10;
       return myValue;
-   
 
-   // Method definition and body
-   // do some calculation
    if () {
     console.log('sdggg');
     console.log('sdggg');
@@ -48,9 +48,6 @@
       myValue = myValue+10;
       return myValue;
    
-   
-   // Method definition and body
-   // do some calculation
    if () {
     console.log('sdggg');
     console.log('sdggg');
