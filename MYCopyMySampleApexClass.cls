@@ -1,50 +1,56 @@
-public class Class1 {
-    public static void main(String[] args){
-        Integer i,j;
-        i=10;
-        System.debug(j=i+i*i+j);
-    }
-    public static void dupe1(){
-        new pull request checking
-    }
-    public static void dupe2(){
-        if (true) {
+public class MySampleApexClass {
+   public static Integer myValue = 0;
+   public static String myString = ''; 
+   //Class Member variable
+     //Class Member variable
+          //Class definition and body
+               movedTheNamesToNextLine
+   public static Integer getCalculatedValue () {
+   // Method definition and body
+   // do some calculation
+   if (true) {
     console.log('sdggg');
     console.log('sdggg');
     console.log('sdggg');
     console.log('sdggg');
   }
-    }
-    public static void dupe3(){
-        if (true) {
+      myValue = myValue+10;
+      return myValue;
+   }
+    public static Integer getCalculatedValue () {
+   // Method definition and body
+   // do some calculation
+   if () {
     console.log('sdggg');
     console.log('sdggg');
     console.log('sdggg');
     console.log('sdggg');
   }
-    }
-    public static void dupe1(){
-        if (true) {
+      myValue = myValue+10;
+      return myValue;
+   }
+   public static Integer getCalculatedValue () {
+   // Method definition and body
+   // do some calculation
+   if () {
     console.log('sdggg');
     console.log('sdggg');
     console.log('sdggg');
     console.log('sdggg');
   }
-    }
-    public static void dupe2(){
-        if (true) {
+      myValue = myValue+10;
+      return myValue;
+   }
+    public static Integer getCalculatedValue () {
+   // Method definition and body
+   // do some calculation
+   if () {
     console.log('sdggg');
     console.log('sdggg');
     console.log('sdggg');
     console.log('sdggg');
   }
-    }
-    public static void dupe3(){
-        if (true) {
-    console.log('sdggg');
-    console.log('sdggg');
-    console.log('sdggg');
-    console.log('sdggg');
-  }
-    }
+      myValue = myValue+10;
+      return myValue;
+   }
 }
