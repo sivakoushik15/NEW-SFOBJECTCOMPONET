@@ -14,11 +14,11 @@ function ValidateIPaddress(ip)
     console.log('sdggg');
     console.log('sdggg');
   }
-  if (true) {
-    console.log('sdggg');
-    console.log('sdggg');
-    console.log('sdggg');
-    console.log('sdggg');
+ else if (false) {
+    console.log('fff');
+    console.log('ggg');
+    console.log('sss');
+    console.log('aaa');
   }
   if (true) {
     console.log('sdggg');
