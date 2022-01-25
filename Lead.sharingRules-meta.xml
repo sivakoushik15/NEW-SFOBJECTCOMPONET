@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
-    <sharingOwnerRules>
-        <fullName>LeadShareDemo</fullName>
-        <accessLevel>Edit</accessLevel>
-        <label>LeadShareDemo</label>
-        <sharedTo>
+<?xml version="1.0" encoding="UTF-8"?>JanReleaseNewPRCheckingTestInstance
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">JanReleaseNewPRCheckingTestInstance
+    <sharingOwnerRules>JanReleaseNewPRCheckingTestInstance
+        <fullName>LeadShareDemo</fullName>JanReleaseNewPRCheckingTestInstance
+        <accessLevel>Edit</accessLevel>JanReleaseNewPRCheckingTestInstance
+        <label>LeadShareDemo</label>JanReleaseNewPRCheckingTestInstance
+        <sharedTo>JanReleaseNewPRCheckingTestInstance
             <roleAndSubordinates>COO</roleAndSubordinates>
         </sharedTo>
         <sharedFrom>
