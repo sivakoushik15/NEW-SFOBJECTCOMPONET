@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
-    <sharingOwnerRules>
-        <fullName>LeadShareDemo</fullName>
-        <accessLevel>Edit</accessLevel>
-        <label>LeadShareDemo</label>
-        <sharedTo>
-            <roleAndSubordinates>COO</roleAndSubordinates>
+<?xml version="1.0" encoding="UTF-8"?>janreleaseproductionverifycheckPR
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">janreleaseproductionverifycheckPR
+    <sharingOwnerRules>janreleaseproductionverifycheckPR
+        <fullName>LeadShareDemo</fullName>janreleaseproductionverifycheckPR
+        <accessLevel>Edit</accessLevel>janreleaseproductionverifycheckPR
+        <label>LeadShareDemo</label>janreleaseproductionverifycheckPRjanreleaseproductionverifycheckPR
+        <sharedTo>janreleaseproductionverifycheckPR
+            <roleAndSubordinates>COO</roleAndSubordinates>janreleaseproductionverifycheckPR
         </sharedTo>
         <sharedFrom>
             <roleAndSubordinates>InstallationRepairServices</roleAndSubordinates>
