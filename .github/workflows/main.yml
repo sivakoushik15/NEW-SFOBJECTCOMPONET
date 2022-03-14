@@ -37,12 +37,12 @@ jobs:
             sonar.branch.name=${{github.head_ref}}
             sonar.branch.target=${{github.base_ref}}
             sonar.branch.type=SHORT
-      - name: Upload SARIF file
-        uses: github/codeql-action/upload-sarif@v1
-        with:
-          sarif_file: codescan.sarif
       - name: Archive code coverage results
         uses: actions/upload-artifact@v3
         with:
           name: code-coverage-report
           path: codescan.sarif
+      - name: Upload SARIF file
+        uses: github/codeql-action/upload-sarif@v1
+        with:
+          sarif_file: codescan.sarif
