@@ -1,0 +1,43 @@
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Cache files
+        uses: actions/cache@v2
+        with:
+            path: |
+                ~/.sonar
+            key: ${{ runner.os }}-sonar
+            restore-keys: ${{ runner.os }}-sonar
+      - name: Run Codescan On Push
+        if: github.event_name == 'push'
+        uses: codescan-io/codescan-scanner-action@master
+        with:
+          organization: siva-one91649
+          projectKey: sivakoushik15-GH-NEW-SFOBJECTCOMPONET      
+          login: ${{ secrets.codescan_token }}
+          codeScanUrl: https://test.codescan.io/
+      - name: Run Codescan On PR
+        if: github.event_name == 'pull_request'
+        uses: codescan-io/codescan-scanner-action@master
+        with:
+          organization: siva-one91649
+          projectKey: sivakoushik15-GH-NEW-SFOBJECTCOMPONET
+          login: ${{ secrets.codescan_token }}
+          codeScanUrl: https://test.codescan.io/
+          args: |
+            sonar.branch.name=${{github.head_ref}}
+            sonar.branch.target=${{github.base_ref}}
+            sonar.branch.type=SHORT
+      - name: Upload SARIF file
+        uses: github/codeql-action/upload-sarif@v1
+        with:
+          sarif_file: codescan.sarifl̥
