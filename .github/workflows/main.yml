@@ -22,7 +22,7 @@ jobs:
         uses: codescan-io/codescan-scanner-action@master
         with:
           organization: newpreviewsivafive
-          projectKey: sivakoushik15-GH-NEW-SFOBJECTCOMPONET      
+          projectKey: New-GH-NEW-SFOBCOM      
           login: ${{ secrets.codescan_token }}
           codeScanUrl: https://preview.codescan.io/
           generateSarifFile: true
@@ -31,7 +31,7 @@ jobs:
         uses: codescan-io/codescan-scanner-action@master
         with:
           organization: newpreviewsivafive
-          projectKey: sivakoushik15-GH-NEW-SFOBJECTCOMPONET
+          projectKey: New-GH-NEW-SFOBCOM
           login: ${{ secrets.codescan_token }}
           codeScanUrl: https://preview.codescan.io/
           generateSarifFile: true
