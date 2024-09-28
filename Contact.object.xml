@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-chekcingforOnlyTheParticularFileIsAnalysisngForPR
+
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionOverrides>
+	    chekcingforOnlyTheParticularFileIsAnalysisngForPR
+	    chekcingforOnlyTheParticularFileIsAnalysisngForPR
+	    chekcingforOnlyTheParticularFileIsAnalysisngForPR
         <actionName>CallHighlightAction</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -44,6 +47,16 @@ chekcingforOnlyTheParticularFileIsAnalysisngForPR
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+	 <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides> <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides> <actionOverrides>
         <actionName>Edit</actionName>
         <type>Default</type>
     </actionOverrides>
